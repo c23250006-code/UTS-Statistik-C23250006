@@ -95,7 +95,7 @@ else:
 # Lanjutkan render dashboard JIKA dataframe (df) sudah ada
 if df is not None:
     st.sidebar.markdown("---")
-    st.sidebar.header("🔍 Global Filters")
+    st.sidebar.header("Global Filters")
     selected_brand = st.sidebar.multiselect("Pilih Brand", options=df['Brand'].dropna().unique(), default=df['Brand'].dropna().unique())
     selected_geo = st.sidebar.multiselect("Pilih Wilayah (Geo)", options=df['Geo'].dropna().unique(), default=df['Geo'].dropna().unique())
     

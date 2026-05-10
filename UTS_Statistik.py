@@ -74,7 +74,7 @@ uploaded_file = st.sidebar.file_uploader("Upload dataset (CSV)", type=['csv'])
 
 # ================= KONTEN UTAMA (LOGIKA DEFAULT DATASET) =================
 # Tentukan path file default menggunakan raw string (r"") agar backslash terbaca benar
-DEFAULT_DATA = r"D:\Streamlit_Project\synthetic_mmm_weekly_india.csv"
+DEFAULT_DATA = "synthetic_mmm_weekly_india.csv"
 
 # Logika penentuan dataset mana yang dipakai
 df = None
